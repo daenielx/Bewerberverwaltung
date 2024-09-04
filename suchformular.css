@@ -1,0 +1,41 @@
+.tx-vrsinfo-autocomplete {
+    /* Basis-Angaben (nicht ändern) */
+    position: absolute;
+    display: none;
+    z-index: 9999;
+    Einbindung der VRS-Dienste in Partner-Webseiten side by site GmbH & Co. KG
+    Einbindung von Fahrplanauskunft, Haltestellen- und Linieninformation und Linienplan - Version 1.1.1 Seite 6 von 7
+    overflow: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    /* Aussehen */
+    text-align: left;
+    border: 1px solid #e0e0e0;
+    border-top: 0;
+    background: white;
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, .1);
+    max-height: 200px;
+    font-size: 12px;
+    }
+    .tx-vrsinfo-autocomplete .autocomplete-suggestion {
+    cursor: pointer;
+    padding-left: 20px;
+    line-height: 150%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333;
+    background: white no-repeat 0 center/contain;
+    }
+    .tx-vrsinfo-autocomplete .stop {
+    background-image: url("https://www.vrso.de/typo3conf/ext/vrs_info/Resources/Public/Images/Stop.svg");
+    }
+    .tx-vrsinfo-autocomplete .address {
+    background-image: url("https://www.vrs.de/typo3conf/ext/vrs_info/Resources/Public/Images/Address.svg");
+    }
+    .tx-vrsinfo-autocomplete .poi {
+    background-image: url("https://www.vrs.de/typo3conf/ext/vrs_info/Resources/Public/Images/Poi.svg");
+    }
+    .tx-vrsinfo-autocomplete .selected {
+    background-color: #e0e0e0;
+    }
